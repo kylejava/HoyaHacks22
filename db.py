@@ -1,6 +1,7 @@
 import firebase_admin
 from firebase_admin import credentials, firestore
 from pprint import pprint
+from data import *
 cred = credentials.Certificate('hoyahacks-339701-firebase-adminsdk-hlqfr-7de4c062b8.json')
 firebase_admin.initialize_app(cred,
 {
@@ -19,7 +20,7 @@ data = {
     u'sign':'New Test!!!'
 }
 
-doc_ref.document(u'two').set(data)
+doc_ref.document(u'two  ').set(data)
 
 for doc in docs:
     pprint(f'{doc.id} => {doc.to_dict()}')
