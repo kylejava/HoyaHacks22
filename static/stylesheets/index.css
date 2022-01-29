@@ -20,14 +20,15 @@ body  {
 .form-box{
   position: absolute;
   width: 1110px;
-  height: 500px;
-  top: 50px;
+  height: 550px;
+  top: 10px;
   left: 100px;
   background: #FFF9FE;
   border: 10px solid #819CAD;
   box-sizing: border-box;
   font-family: RobotoMono-Regular;
 }
+
 
 input[type=submit]{
 

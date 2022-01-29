@@ -17,6 +17,39 @@ body  {
 
 }
 
+.form-box{
+  position: absolute;
+  width: 1110px;
+  height: 500px;
+  top: 50px;
+  left: 100px;
+  background: #FFF9FE;
+  border: 10px solid #819CAD;
+  box-sizing: border-box;
+  font-family: RobotoMono-Regular;
+}
+
+input[type=submit]{
+
+  height: 64px;
+  width: 310px;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+  background-color: #8A53FF;
+  border-radius: 10px;
+  color: white;
+  font-size: 30px;
+  font-family: RobotoMono-Regular;
+  left: 32.27%;
+right: 52.5%;
+top: 58.17%;
+bottom: 37.79%;
+}
+
+#astrological_sign{
+  height:35px;
+}
 
 .navbar{
   background-color: #202046;
