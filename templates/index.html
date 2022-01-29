@@ -1,57 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset = "UTF-8">
-    <link rel = "stylesheet" type = text/css" href = "index.css">
-    <title>ScopeMobile</title>
+  <head>
+      <meta charset = "UTF-8">
+      <link rel = "stylesheet" type = "text/css" href = "index.css">
+      <title>ScopeMobile</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 
-    <!font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+  </head>
 
-</head>
-
-<body>
-
-    <!--navigation bar-->
-    <!--
-    <div align = "center">
-        <ul class = "navbar">
-            <li><a href="About"></a></li>
-
-
-        </ul>
-    </div>
-
-    </nav>
-    -->
-
+  <body>
     <nav class = "navbar">
       <h1>ScopeMobile</h1>
     </nav>
     <div class="container input">
       <h5 id='header'class = "pt-5">Fill out the fields below and receive a text message of your horoscope!</h5>
-      <form  action="/result" method="POST">
-
-
+      <form  action="/" method="POST">
       <div class="container row">
         <h3>Name: </h3>
-        <input type="text" name="yourName" >
+        <input type="text" name="name" >
       </div>
       <div class="container row">
-        <h3>Astrological Sign </h3>
-        <input type="text" name="yourPartnerName" >
+        <label for="astrological_sign">Choose your astrological sign:</label>
+        <select name="astrological_sign" id="astrological_sign">
+          <option value="aries">Aries</option>
+          <option value="taurus">Taurus</option>
+          <option value="gemini">Gemini</option>
+          <option value="leo">Leo</option>
+          <option value="virgo">Virgo</option>
+          <option value="libra">Libra</option>
+          <option value="scorpio">Scorpio</option>
+          <option value="sagittarius">Sagittarius</option>
+          <option value="capricorn">Capricorn</option>
+          <option value="aquarius">Aquarius</option>
+          <option value="pisces">Pisces</option>
+        </select>
       </div>
       <div class="container row">
         <h3>Phone Number </h3>
-        <input type="text" name="number" >
+        <input type="text" name="phone_number" >
       </div>
+      <div class="container submit">
+        <input type="submit" name="Submit" value="Enter">
+      </div>
+    </div>
 
-    </div>
-    <div class="container submit">
-      <input type="submit" name="" value="Enter">
-    </div>
 
 </body>

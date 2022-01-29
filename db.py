@@ -20,10 +20,3 @@ def addToDatabase(user):
         u'sign':user.sign
     }
     doc_ref.document().set(data)
-
-x = User("Kyle Edward Galido Java", 1234567890, "Aries")
-addToDatabase(x)
-
-
-for doc in docs:
-    pprint(f'{doc.id} => {doc.to_dict()}')

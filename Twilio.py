@@ -19,6 +19,3 @@ def sendMessage(user):
                      )
 
     print(message.sid)
-
-test = User("Jessica Natalia Reyes Sanchez" , 7146590375, 'taurus')
-sendMessage(test)
