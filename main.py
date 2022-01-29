@@ -1,5 +1,5 @@
 import requests
-from flask import Flask, render_template, flash, request
+from flask import Flask, render_template, flash, request, redirect, url_for
 from Twilio import *
 from db import *
 app = Flask(__name__)
@@ -16,6 +16,7 @@ def home():
         user = User(name, phone_number, astrological_sign)
         addToDatabase(user)
         sendMessage(user)
+        return redirect(url_for('submit'))
 
     return render_template('index.html')
 
