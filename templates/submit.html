@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-      <meta charset = "UTF-8">
-      <link rel = "stylesheet" type = "text/css" href = "submit.css">
-      <title>ScopeMobile</title>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
-    <nav class = "navbar">
-      <h1>ScopeMobile</h1>
+  <head>
+    <meta charset = "UTF-8">
+    <title>ScopeMobile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="{{ url_for('static', filename='stylesheets/submit.css') }}">
+
+  </head>
+  <body>
+    <nav class="navbar">
+      <a class="navbar-brand mx-5" href="#" style = "font-size:30px; text-decoration: none;">
+        ScopeMobile
+        <img class = "img-fluid" src="../static/images/logo.png" width="60" height="60" class="d-inline-block align-top" alt="logo">
+      </a>
     </nav>
 
     <div class="container submit">
-        <h3>You'll receive a message shortly!</h3>
-        <h3>Press the button below if you have not received a message</h3>
+      <h3>You'll receive a message shortly!</h3>
+      <h3>Press the button below if you have not received a message</h3>
 
     </div>
 
-      <div class="container submit">
-        <input type="submit" name="Submit" value="Enter">
-      </div>
+    <div class="container submit">
+      <input type="submit" name="Submit" value="Enter">
+    </div>
 
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
 </html>

@@ -5,7 +5,7 @@ from User import *
 cred = credentials.Certificate('hoyahacks-339701-firebase-adminsdk-hlqfr-7de4c062b8.json')
 firebase_admin.initialize_app(cred,
 {
-'databaseURL': 'https://hoyahacks-339701.firebaseio.com/'
+    'databaseURL': 'https://hoyahacks-339701.firebaseio.com/'
 })
 
 db = firestore.client()

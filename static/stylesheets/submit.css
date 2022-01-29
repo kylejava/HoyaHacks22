@@ -1,0 +1,31 @@
+@font-face {
+  font-family: RobotoMono-Regular;
+  src: url('../fonts/RobotoMono-Regular.ttf');
+}
+
+
+
+@font-face {
+  font-family: SpaceMono-Regular;
+  src: url('../fonts/SpaceMono-Regular.ttf');
+}
+
+
+body  {
+  background-image: url("../images/bg.png");
+  background-size: cover;
+
+}
+
+
+.navbar{
+  background-color: #202046;
+  font-family: SpaceMono-Regular;
+  color: #fff9fe;
+}
+
+.navbar-brand{
+  text-decoration: none;
+  font-size: 50px;
+  color: #fff9fe;
+}
