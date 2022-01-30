@@ -1,3 +1,8 @@
+# HoyaHacks22
+
+## Neala Mendoza & Kyle Edward Galido Java
+
+
 ## Inspiration
 
 We wanted to build a simple application that would be a useful tool for users and a way for us to learn something new and try something new. A lot of people are really into astrology and learning about how their astrological sign plays in their life. We wanted to build something that would be useful and simple tool for people into astrology.
