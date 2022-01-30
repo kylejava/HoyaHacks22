@@ -8,6 +8,10 @@ ScopeMobile is a simple application where the user would put in their name, phon
 
 ## How we built it
 
+Neala Mendoza: Designed how the website looked in Figma, worked on Front-End Of the website, Designed logos and icons for website!!!
+
+Kyle Edward Galido Java: Developed & Designed the Database with the Google FireStore Database, worked on configuring text SMS with the Twilio API. Worked on getting the horoscope with the Aztro API. Wrapped up the Back-End With Python's Flask!!!
+
 The Front-End Of The Project Was Build With HTML, CSS, And The Bootstrap Library. The Back-End of the project was built with Python for API requests, Flask to host templates of the Front-End, The Aztro API to get the horoscope's, The Google Cloud Platform for their cloud services, And The Twilio API for sending SMS messages to users. The DataBase We Used Was The Google FireStore DataBase.
 
 ## Challenges we ran into
